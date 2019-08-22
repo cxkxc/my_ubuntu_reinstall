@@ -71,7 +71,7 @@ sudo apt-get install mbuntu-bscreen-v3
 sudo apt-get remove mbuntu-bscreen-v3
 ```
 ### 7. 修改 Ubuntu 的登录画面成为 Mac OS X 的样式
-####安装：
+#### 安装：
 ```Bash
 sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
@@ -83,7 +83,7 @@ sudo apt-get remove mbuntu-lightdm-v3
 ```
 
 ### 8. 去掉 ubuntu 锁屏的图标
-####安装：
+#### 安装：
 ```Bash
 sudo xhost +SI:localuser:lightdm
 sudo su lightdm -s /bin/bash
