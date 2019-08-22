@@ -66,12 +66,12 @@ sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
 sudo apt-get install mbuntu-bscreen-v3
 ```
-#### 想要修改回来：
+#### 想要修改回来
 ```Bash
 sudo apt-get remove mbuntu-bscreen-v3
 ```
 ### 7. 修改 Ubuntu 的登录画面成为 Mac OS X 的样式
-#### 安装：
+#### 安装
 ```Bash
 sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
@@ -83,7 +83,7 @@ sudo apt-get remove mbuntu-lightdm-v3
 ```
 
 ### 8. 去掉 ubuntu 锁屏的图标
-#### 安装：
+#### 安装
 ```Bash
 sudo xhost +SI:localuser:lightdm
 sudo su lightdm -s /bin/bash
@@ -98,14 +98,14 @@ gsettings set com.canonical.unity-greeter draw-grid true;exit
 sudo mv /usr/share/unity-greeter/logo.png.backup /usr/share/unity-greeter/logo.png
 ```
 
-### 9. 安装Mac字体
+### 9. 安装Mac字体（2选1）
 #### 字体1
 ```Bash
 wget -O mac-fonts.zip http://drive.noobslab.com/data/Mac-14.04/macfonts.zip
 sudo unzip mac-fonts.zip -d /usr/share/fonts; rm mac-fonts.zip
 sudo fc-cache -f -v
 ```
-#### 字体2（可选）
+#### 字体2
 ```Bash
 sudo apt-get install fonts-wqy-microhei //安装文泉驿微米黑字体
 ```
