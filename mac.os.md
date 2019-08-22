@@ -1,12 +1,12 @@
 UBUNTU 安装 MAC OS
 ===================================
 
-### 1. 为了修改GTK主题，图标，系统主题，光标，字体我们需要安装unity tweak。要安装unity tweak在ubuntu14.04上通过使用如下命令：
+### 1. 为了修改GTK主题，图标，系统主题，光标，字体，我们需要安装unity tweak。在ubuntu16.04//14.04上，可以通过应用商店安装，也可以通过使用如下命令：
 ```Bash
 sudo apt-get install unity-tweak-tool //安装unity-tweak-tool
 ```
 
-### 2. 安装mac主题、图标、指针（2选1即可）
+### 2. 安装mac主题、图标、指针（2选1即可，建议16.04选上，14.04选下）
 ##### 主题1
 ```Bash
 sudo add-apt-repository ppa:noobslab/macbuntu 
@@ -62,7 +62,7 @@ gsettings reset com.canonical.desktop.interface scrollbar-mode
 ### 以下项目有风险，请提前备份
 ### 以下项目有风险，请提前备份
 
-### 6. 替换启动屏幕图片
+### 6. 替换启动屏幕图片（2选1即可）
 #### 在这个小章节里面将会为ubuntu 14.04修改启动图片，包括载入动画跟苹果LOGO
 #### 版本1
 ##### 安装
@@ -87,7 +87,7 @@ sudo apt-get install mbuntu-bscreen-v3
 sudo apt-get remove mbuntu-bscreen-v3
 ```
 
-### 7. 修改 Ubuntu 的登录画面成为 Mac OS X 的样式
+### 7. 修改 Ubuntu 的登录画面成为 Mac OS X 的样式（2选1即可）
 #### 版本1
 ##### 安装
 ```Bash
