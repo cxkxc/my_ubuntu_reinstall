@@ -14,7 +14,7 @@ sudo apt-get update
 sudo apt-get install macbuntu-os-icons-lts-v7 //图标 
 sudo apt-get install macbuntu-os-ithemes-lts-v7 //主题
 ```
-##### 主题1
+##### 主题2
 ```Bash
 sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
@@ -58,9 +58,25 @@ gsettings set com.canonical.desktop.interface scrollbar-mode normal
 ```Bash
 gsettings reset com.canonical.desktop.interface scrollbar-mode
 ```
+### 以下项目有风险，请提前备份
+### 以下项目有风险，请提前备份
+### 以下项目有风险，请提前备份
 
 ### 6. 替换启动屏幕图片
-#### 在这个小章节里面将会为ubuntu 14.04修改启动图片，包括载入动画跟苹果LOGO，命令如下
+#### 在这个小章节里面将会为ubuntu 14.04修改启动图片，包括载入动画跟苹果LOGO
+#### 版本1
+##### 安装
+```Bash
+sudo add-apt-repository ppa:noobslab/macbuntu 
+sudo apt-get update 
+sudo apt-get install macbuntu-os-bscreen-lts-v7
+```
+#### 修改回来
+```Bash
+sudo apt-get remove macbuntu-os-bscreen-lts-v7
+```
+#### 版本2
+##### 安装
 ```Bash
 sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
@@ -70,7 +86,21 @@ sudo apt-get install mbuntu-bscreen-v3
 ```Bash
 sudo apt-get remove mbuntu-bscreen-v3
 ```
+
 ### 7. 修改 Ubuntu 的登录画面成为 Mac OS X 的样式
+#### 版本1
+##### 安装
+```Bash
+sudo add-apt-repository ppa:noobslab/macbuntu 
+sudo apt-get update 
+	sudo apt-get install macbuntu-os-lightdm-lts-v7
+```
+#### 修改回来
+```Bash
+sudo apt-get remove macbuntu-os-lightdm-lts-v7
+```
+######
+#### 版本2
 #### 安装
 ```Bash
 sudo add-apt-repository ppa:noobslab/themes
